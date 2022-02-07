@@ -14,12 +14,12 @@ def main():
     titulo_filme = []
 
     # Armazena somente o ano de cada filme na lista ano_filme
-    for a in filmes:
-        ano_filme.append(a[-5:-1])
+    for ano in filmes:
+        ano_filme.append(ano[-5:-1])
 
     # Armazena somente o título de cada filme na lista titulo_filme
-    for t in filmes:
-        titulo_filme.append(t[:-7])
+    for titulo in filmes:
+        titulo_filme.append(titulo[:-7])
 
 
     rows = zip(titulo_filme, ano_filme)
