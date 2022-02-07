@@ -23,9 +23,9 @@ for t in filmes:
 
 rows = zip(titulo_filme, ano_filme)
 
-# Em uma planilha csv, escreve cada item das listas em uma coluna separada 
+# Em uma planilha csv, escreve cada item das listas em uma coluna separada
 dir_csv = '(diretorio_output_csv).csv'
-with open(dir_csv, 'w') as filmes_csv:
+with open(dir_csv, 'w', encoding='UTF-8') as filmes_csv:
     writer = csv.writer(filmes_csv)
     for row in rows:
         writer.writerow(row)
