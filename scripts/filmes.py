@@ -2,6 +2,7 @@ import csv
 import os
 
 def main():
+    """"Cataloga as pastas de filmes por Título e Ano"""
     dir_filmes = '(diretorio_pasta_filmes)'
 
     # Busca o nome dos diretórios e os armazena na lista filmes
